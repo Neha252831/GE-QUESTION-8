@@ -1,0 +1,50 @@
+body{
+	background:url(https://img1.wallspic.com/previews/4/6/1/5/5/155164/155164-harry_potter_aesthetic-harry_potter-hogwarts_legacy-warner_bros_studio_tour_london-draco_malfoy-x750.jpg) no-repeat  center/cover;
+    font-family:sans-serif;
+    color: #3E2723;
+}
+.styled-table {
+    border-collapse: collapse;
+    margin: 100px 190px;
+    font-size: 1.5em;
+    font-family:verdana ,sans-serif;
+    min-width: 70%;
+    box-shadow: 25px 25px 25px /*rgb(0, 0, 0, 0.15)*/;
+    font-weight: bold;
+    color: #CD853F;
+}
+.styled-table thead tr {
+    background-color:#CD853F;
+    color: #ffffff;
+    text-align: left;
+}
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+    height: 80px;
+    background-color:white;
+}
+.needs{
+	width: 20%;
+}
+h1{
+	color: #CD853F;
+     text-align: center;
+     font-size: 40px;
+}
+pre{
+	color: #D2A523 ;
+	font-weight:bold;
+    font-size: 25px;
+    text-align: center;
+    
+}
+ .footer
+{
+  background-color: #CD853F;
+  padding: 2px;
+  text-align: center;
+}
+.styled-table  tbody tr :hover{
+    background-color: #BBA7A1 ;
+    cursor: pointer;
+}

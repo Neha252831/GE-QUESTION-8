@@ -1,0 +1,82 @@
+body{
+	font-family: sans-serif;
+	background-color: #3E2723;
+	margin: 0;
+	color:  #ffffff;
+	line-height: 1.6;
+}
+a{
+	text-decoration: none;
+	color:  #CCCCCC;
+}
+#showcase{
+	margin: 0;
+	padding:0;
+	background:url(https://pentagram-production.imgix.net/cc9a5e1f-0979-43ff-a182-59c895c8ebd6/9.14.2020_TD_HP_KeyArt-WIDE-UHD_COLOR-P-Edit-V1_2500px.jpg?rect=0%2C0%2C2489%2C1556&w=880&fit=crop&fm=jpg&q=70&auto=format&h=548) no-repeat  center/cover;
+	width:100%;
+	height: 100vh; 
+	position: relative;
+	overflow : hidden;
+	display: flex; 
+}
+.section:hover{
+	background-color: #5D4037;
+}
+nav{
+	height: 40px;
+	width: 100%;
+	background-color:#3E2723;
+	color:rgb(51,34,34);
+	position: fixed;
+}
+nav ul{
+	margin:0;
+	padding: 0;
+}
+nav li{
+	display: inline;
+	float: left;
+	text-align: center;
+	font-family: sans-serif;
+}
+nav a{
+	display: inline-block;
+	width: 100px;
+	text-align: center;
+	text-decoration: none;
+	padding: 10px 0;           /*top/bottom   left/right*/
+	color: #eee;
+}
+nav li:hover{
+	background-color:#5D4037;
+}
+.container{
+	max-width: 1180px;
+	text-align: center;
+	margin:0 auto;
+	padding: 0 3rem;
+	font-size: 15px;
+}
+footer .footer-cols {
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: repeat(3,1fr);
+	padding: 2rem;
+	text-align: left;
+	font-size: 15px;
+}
+footer .footer-cols ul{
+	list-style: none;
+}
+footer .footer-cols ul li:first-child{
+	font-size: 1.5rem;
+	padding-bottom: 0.5rem;
+    border-bottom: #444 solid  1px;
+    margin-bottom: 1rem;
+}
+footer .footer-bottom{
+	background-color: #5D4037;
+	padding: 2px;
+	text-align: center;
+}
+
